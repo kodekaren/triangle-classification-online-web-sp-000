@@ -12,7 +12,6 @@ def kind
     raise TriangleError
   elsif length_one + length_two > length_three
     raise TriangleError
-
   elsif length_one == length_two && length_two == length_three
     :equilateral
   elsif
